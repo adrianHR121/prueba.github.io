@@ -1,0 +1,293 @@
+body {
+    background: #fff;
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+
+
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+
+.contenedor {
+
+    height: 2700px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+
+
+
+}
+
+.foto {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+.menu1 {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    background: black;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0%;
+
+    padding: 0%;
+
+
+
+}
+
+.caja {
+    width: 100%;
+    height: 100px;
+}
+
+.links {
+    padding-left: 400px;
+    width: 100%;
+    height: 100px;
+
+}
+
+#button {
+    padding: 0;
+    width: 800px;
+    height: 50px;
+    justify-content: center;
+
+}
+
+#button li {
+    display: inline;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#button li a {
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #00000054;
+    color: #fff;
+    width: 21%;
+    height: 20px;
+    border: 5px solid white;
+}
+
+
+
+#button li a:hover {
+    background-color: #ffffff;
+    color: black;
+    margin-top: -2px;
+    padding-bottom: 12px;
+}
+
+
+.supMenu {
+    background: rgb(255, 255, 255);
+    height: 800px;
+    padding-left: 0ch;
+    padding: 20px;
+    margin-bottom: 100px;
+
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 50%;
+   transition: all 500ms ease-out;
+}
+
+
+.galeria .img1 {
+    background: url(img/diseno-de-salas-de-espera.jpg);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100%;
+    background-size: cover;
+}
+
+.galeria .img2 {
+    background: url(img/medicas.jpg);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100%;
+    background-size: cover;
+}
+
+.galeria .img3 {
+    background-image: url(img/Featured-image-Student-Blog-Hospital-Team.jpg);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100%;
+    background-size: cover;
+}
+span 
+{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+div .info {
+    background-color: rgb(31, 31, 31, 0.9);
+    -webkit-transition: opacity 0.2s;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+}
+.info .txt1{
+    width: 100%;
+    color: #fff;
+    height: 15%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 50px;
+}
+.info .txt2{
+    width: 100%;
+    
+    height: 85%;
+   
+}
+.info .txt2 li{
+    padding-left: 30px;
+    margin: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.galeria a:hover div.info {
+    opacity: 1;
+}
+
+.supMenu .imagen {
+    height: 100%;
+    width: 100%;
+}
+
+.fondo {
+    position: relative;
+}
+
+
+.titulo1 {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cont {
+
+    height: 1100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -10%);
+    width: 1500px;
+    padding-top: 10px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.pie {
+    background: rgb(37, 35, 35);
+    height: 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.cuadro {
+    background: rgb(37, 35, 35);
+    height: 100%;
+}
+
+
+
+
+
+.cuadro-top {
+    background: rgba(255, 255, 255, 0.774);
+    text-align: left;
+    line-height: 110px;
+    width: 100%;
+    height: 9.5%;
+
+
+
+}
+
+.cuadro-top h3 {
+    margin: 0%;
+    font-size: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.cuadro-bottom {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 80%;
+
+
+
+
+}
+
+.cuadro-bottom h3 {
+    padding: 20px;
+    padding-left: 50px;
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+   
+}
+
+.cuadro-bottom h3 img {
+    float: right;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cuadro li{
+    color: #fff;
+    padding: 30px;
+    font-size: 30px;
+}
+
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+    }
+}
